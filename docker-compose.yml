@@ -1,0 +1,8 @@
+version: '3.9'
+
+services:
+  app:
+    build: .
+    volumes:
+      - ./input-images:/usr/src/app/input-images
+      - ./output-images:/usr/src/app/output-images
